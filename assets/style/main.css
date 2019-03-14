@@ -1,0 +1,94 @@
+body {
+    background-image: url(../img/baggrund.png);
+    background-size: cover;
+}
+@media (min-width: 992px) {
+    body {}
+}
+.business-header {
+    height: 50vh;
+    min-height: 300px;
+    background: url('http://placehold.it/1920x400') center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.card {
+    height: 100%;
+    margin-bottom: 15px;
+}
+.main-container {
+    background-color: white;
+    padding-top: 40px;
+}
+.card-img-top {
+    position: relative;
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    color: white;
+    text-align: center;
+}
+.fb-page,
+.fb-page span,
+.fb-page span iframe[style] {
+    width: 100% !important;
+}
+.btn.btn-info.btn-block {
+    background-color: #0c3772;
+}
+.forside-banner {
+    height: 200px;
+}
+.forside-banner img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+img.navbar-brand.d-none.d-lg-block {
+    width: 100px;
+}
+@media screen and (min-width: 768px){
+  .dropdown:hover .dropdown-menu, .btn-group:hover .dropdown-menu{
+        display: block;
+    }
+    .dropdown-menu{
+        margin-top: 0;
+    }
+    .dropdown-toggle{
+        margin-bottom: 2px;
+    }
+    .navbar .dropdown-toggle, .nav-tabs .dropdown-toggle{
+        margin-bottom: 0;
+    }
+}
+@media screen and(max-width:768px){
+.switcher{
+display:none;
+}
+}
+
+.card p {
+    margin-bottom: 0px !important;
+}
+a {
+    color:#0c3772;
+    }
+
+.language {
+    position: absolute;
+    top: 5px;
+}
+
+#menu-hovedmenu {
+    margin-right: 150px;
+}
